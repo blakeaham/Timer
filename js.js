@@ -30,7 +30,7 @@
 //https://codepen.io/rxsharp/pen/jPZgpX content finished
 
 function countdown(elementName, minutes, seconds) {
-  var element, endTime, msLeft, pct;
+  // var element, endTime, msLeft, pct;
 
   function updateTimer() {
     msLeft = endTime - +new Date();
